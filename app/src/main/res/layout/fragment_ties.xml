@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhumika29.myapplication.TiesFragment"
+    android:background="@drawable/ties2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/editText8"
+        android:hint="  Post your comment"
+        android:cursorVisible="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/button19"
+        android:layout_gravity="left|bottom"
+        android:background="#edc5c5"
+        android:onClick="BasicToast" />
+
+</FrameLayout>

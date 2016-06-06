@@ -1,0 +1,39 @@
+<?xml version="2.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bhumika29.myapplication.MainActivity"
+    android:clickable="false"
+    android:background="@drawable/profileback">
+
+        <EditText
+            android:layout_width="135dp"
+            android:layout_height="260dp"
+            android:inputType="textMultiLine"
+            android:editable="true"
+            android:id="@+id/biotext"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="This is your bio, enter in interesting facts about yourself. Click on the box to the left to upload a profile pic!" />
+
+        <ImageButton
+            android:layout_width="135dp"
+            android:layout_height="200dp"
+            android:id="@+id/profile"
+            android:layout_alignBottom="@+id/biotext"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="48dp"
+            android:contentDescription="image" />
+
+
+
+</RelativeLayout>

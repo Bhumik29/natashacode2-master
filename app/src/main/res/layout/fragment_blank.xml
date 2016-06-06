@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhumika29.myapplication.BlankFragment"
+    android:clickable="true"
+    android:background="@drawable/who">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="180dp"
+        android:text=" "
+        android:id="@+id/button"
+        android:layout_gravity="left|top"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick" />
+
+    <CheckBox
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:text="Follow"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="right|center_vertical"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:text="Follow"
+        android:id="@+id/checkBox3"
+        android:layout_gravity="right|bottom"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="279dp"
+        android:layout_height="98dp"
+        android:id="@+id/button7"
+        android:layout_gravity="left|bottom"
+        android:onClick="onButtonClick"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:layout_width="252dp"
+        android:layout_height="91dp"
+        android:id="@+id/button6"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:id="@+id/checkBox"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:id="@+id/checkBox4"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="270dp"/>
+
+    <Button
+        android:layout_width="257dp"
+        android:layout_height="127dp"
+        android:id="@+id/button8"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick"
+         />
+
+</FrameLayout>

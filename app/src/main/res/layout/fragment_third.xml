@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhumika29.myapplication.ThirdFragment"
+    android:onClick="onButtonClick"
+    android:background="@drawable/feed">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="170dp"
+        android:id="@+id/button5"
+        android:layout_gravity="right|top"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="168dp"
+        android:id="@+id/button9"
+        android:layout_gravity="right|center_vertical"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:id="@+id/button10"
+        android:layout_gravity="right|bottom"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick"
+        />
+
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="175dp"
+        android:text=""
+        android:id="@+id/button11"
+        android:layout_gravity="left|bottom"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:id="@+id/button12"
+        android:layout_gravity="left|center_vertical"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="166dp"
+        android:id="@+id/button13"
+        android:layout_gravity="left|top"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick"/>
+</FrameLayout>
